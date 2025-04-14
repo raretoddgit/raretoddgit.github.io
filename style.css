@@ -1,0 +1,73 @@
+body {
+  font-family: 'Source Serif 4', serif;
+  margin: 0;
+  padding: 2rem;
+  background: #fff;
+  color: #111;
+  line-height: 1.6;
+}
+
+main {
+  max-width: 800px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+
+a {
+  color: #444;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #000;
+}
+
+.project {
+  margin-bottom: 2rem;
+}
+
+footer {
+  text-align: center;
+  margin-top: 4rem;
+  font-size: 0.9rem;
+  color: #999;
+}
+
+body.aqi-good {
+  background: #f2fef2;
+  color: #111;
+}
+
+body.aqi-moderate {
+  background: #fff8e6;
+  color: #665c00;
+  font-style: italic;
+}
+
+body.aqi-unhealthy {
+  background: #ffeaea;
+  color: #990000;
+  filter: contrast(0.9) blur(0.5px);
+}
+
+body.aqi-hazardous {
+  background: radial-gradient(#660000, #000);
+  color: #fff;
+  font-weight: bold;
+  filter: grayscale(0.8) brightness(0.8);
+}
+
+#air-status {
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.1rem;
+}
