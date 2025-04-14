@@ -7,7 +7,7 @@ async function getUserLocation() {
 async function fetchPurpleAirData(lat, lon) {
   const response = await fetch(`https://api.purpleair.com/v1/sensors?fields=name,location_type,latitude,longitude,pm2.5,humidity&location_type=0&max_age=3600&nwlng=${lon - 0.1}&nwlat=${lat + 0.1}&selng=${lon + 0.1}&selat=${lat - 0.1}`, {
     headers: {
-      "X-API-Key": "YOUR_PURPLEAIR_API_KEY"
+      "X-API-Key": "6ABB8020-1985-11F0-81BE-42010A80001F"
     }
   });
 
